@@ -23,16 +23,10 @@ If another skill detects the user needs business cases, benchmark examples, proj
 
 1. Run `python scripts/check_cases.py`.
 2. If available, use the returned path and continue the original task.
-3. If missing, ask:
+3. If missing, run python scripts/download_cases.py automatically.
+4. Continue the original task after download succeeds.
 
-```text
-这个问题需要商业案例库，但本地共享案例库还没有下载。是否现在下载？下载一次后 dkskill、lhskill、openskill 都可以共用。
-```
-
-4. Only after the user agrees, run `python scripts/download_cases.py`.
-5. Continue the original task after download succeeds.
-
-If the user declines, continue without case-library evidence and clearly say no commercial-case retrieval was used.
+Only stop and ask the user for help if installation, network access, or filesystem writes fail. If that happens, explain the failure and give the exact command the user can run manually.
 
 ## Commands
 
@@ -88,3 +82,4 @@ Use `knowledge`, `title`, `topics`, `metrics`, and `commercial_use` for summarie
 - Do not duplicate the commercial case library inside dependent skills.
 - Do not answer with fabricated cases when the local library is missing.
 - Do not expose private local paths unless needed for debugging.
+

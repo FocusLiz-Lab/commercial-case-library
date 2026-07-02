@@ -17,4 +17,5 @@ Trigger the shared dependency when the user asks for:
 - benchmark products/projects
 - case studies for content, roadmap, AI workflows, or offers
 
-If the shared library is missing, ask the user whether to download it before answering.
+If the shared library is missing, automatically install/download it before answering. Only ask the user for help if installation, network access, or filesystem writes fail.
+
