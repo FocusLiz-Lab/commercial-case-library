@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import json
+import shutil
 import sys
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from common import case_dir
+from common import bundled_case_dir, case_dir
 
 
 REPO = "FocusLiz-Lab/commercial-case-library"
@@ -25,6 +26,23 @@ def download(url: str, target: Path) -> None:
 
 
 def main() -> int:
+    bundled_dir = bundled_case_dir()
+    target_dir = case_dir()
+    bundled_files = [
+        path for path in bundled_dir.glob("*")
+        if path.is_file() and (path.suffix in {".jsonl", ".json", ".md"})
+    ]
+    if bundled_files:
+        target_dir.mkdir(parents=True, exist_ok=True)
+        for source in bundled_files:
+            shutil.copy2(source, target_dir / source.name)
+        print(json.dumps({
+            "downloaded": 0,
+            "copied_from_bundle": len(bundled_files),
+            "target_dir": str(target_dir),
+        }, ensure_ascii=False, indent=2))
+        return 0
+
     encoded_dir = urllib.parse.quote(REMOTE_DIR)
     api_url = f"https://api.github.com/repos/{REPO}/contents/{encoded_dir}?ref=main"
     items = fetch_json(api_url)
