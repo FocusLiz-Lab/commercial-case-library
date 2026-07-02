@@ -1,0 +1,14 @@
+version: "1.0"
+name: "commercial-case-library"
+title: "Commercial Case Library"
+description: "Shared commercial case atom library used by multiple SkillHub packages for business examples, benchmark projects, and monetization case retrieval."
+interface:
+  default_prompt: "使用 $commercial-case-library 检查、下载、更新或检索共享商业案例库。该库下载一次后可供 dkskill、lhskill、openskill 等多个 skill 复用。"
+metadata:
+  author: "FocusLiz-Lab"
+  short_description: "共享商业案例库下载检查与检索"
+  tags:
+    - "commercial-cases"
+    - "shared-library"
+    - "atoms"
+    - "skillhub"
