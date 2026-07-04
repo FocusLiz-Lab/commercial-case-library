@@ -48,6 +48,8 @@ Search local cases:
 python scripts/search_cases.py "AI 工具 订阅" --limit 8
 ```
 
+Search results prioritize newer case dates first, then keyword match score. Prefer recent cases because platform rules and traffic mechanics can change.
+
 ## Data Contract
 
 The case library contains JSONL atom files:

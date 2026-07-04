@@ -2,9 +2,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 from common import usable_case_dir
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 
 def iter_records(path: Path):
@@ -42,6 +46,11 @@ def compact(record: dict, score: int) -> dict:
     }
 
 
+def date_key(item: dict) -> str:
+    date = str(item.get("date") or "")
+    return date[:10]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("query")
@@ -60,7 +69,7 @@ def main() -> int:
         if score > 0:
             results.append(compact(record, score))
 
-    results.sort(key=lambda item: item["score"], reverse=True)
+    results.sort(key=lambda item: (date_key(item), item["score"]), reverse=True)
     print(json.dumps({"available": True, "case_dir": str(path), "results": results[: args.limit]}, ensure_ascii=False, indent=2))
     return 0
 
