@@ -9,7 +9,7 @@ Dependent skills should not bundle commercial cases. They should use the shared 
 Trigger the shared dependency when the user asks for:
 
 - 商业案例
-- 生财有术案例
+- 商业案例
 - 项目拆解
 - 对标案例
 - 变现案例

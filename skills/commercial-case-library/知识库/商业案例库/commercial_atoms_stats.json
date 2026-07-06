@@ -1,5 +1,5 @@
 {
-  "root": "E:\\codex\\money\\生财有术文章",
+  "root": "E:\\codex\\money\\商业案例文章",
   "articles_processed": 186450,
   "atoms_generated": 66879,
   "min_score": 9,
@@ -186,9 +186,9 @@
     ]
   ],
   "outputs": {
-    "jsonl": "E:\\codex\\money\\生财有术文章\\_atoms\\commercial_atoms.jsonl",
-    "csv": "E:\\codex\\money\\生财有术文章\\_atoms\\commercial_atoms_index.csv",
-    "stats": "E:\\codex\\money\\生财有术文章\\_atoms\\commercial_atoms_stats.json",
-    "samples": "E:\\codex\\money\\生财有术文章\\_atoms\\commercial_atoms_samples.md"
+    "jsonl": "E:\\codex\\money\\商业案例文章\\_atoms\\commercial_atoms.jsonl",
+    "csv": "E:\\codex\\money\\商业案例文章\\_atoms\\commercial_atoms_index.csv",
+    "stats": "E:\\codex\\money\\商业案例文章\\_atoms\\commercial_atoms_stats.json",
+    "samples": "E:\\codex\\money\\商业案例文章\\_atoms\\commercial_atoms_samples.md"
   }
 }

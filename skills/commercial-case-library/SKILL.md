@@ -1,6 +1,6 @@
 ---
 name: commercial-case-library
-description: Shared commercial case atom library for multiple SkillHub packages. Use when a user asks to download, check, update, or search the shared business case library, or when another skill such as dkskill, lhskill, or openskill needs real business examples, commercial cases, benchmark projects, monetization examples, offer/pricing examples, 生财有术案例, or case-study evidence.
+description: Shared commercial case atom library for multiple SkillHub packages. Use when a user asks to download, check, update, or search the shared business case library, or when another skill such as dkskill, lhskill, or openskill needs real business examples, commercial cases, benchmark projects, monetization examples, offer/pricing examples, 商业案例, or case-study evidence.
 ---
 
 # commercial-case-library
@@ -19,7 +19,7 @@ Override with `COMMERCIAL_CASE_LIBRARY_HOME` only when the user explicitly needs
 
 ## When Another Skill Needs Cases
 
-If another skill detects the user needs business cases, benchmark examples, project teardowns, monetization examples, offer examples, pricing examples, or 生财有术案例:
+If another skill detects the user needs business cases, benchmark examples, project teardowns, monetization examples, offer examples, pricing examples, or 商业案例:
 
 1. Run `python scripts/check_cases.py`.
 2. If available, use the returned path and continue the original task.
