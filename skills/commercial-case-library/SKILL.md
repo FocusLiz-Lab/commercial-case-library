@@ -5,6 +5,8 @@ description: Shared commercial case atom library for multiple SkillHub packages.
 
 ## 手动更新路由
 
+独立更新入口：`$commercial-case-library-update`。用户希望直接更新时，执行该入口，无需补充业务问题。
+
 用户明确要求“更新 skill / 检查更新 / 同步最新原子库”时，先执行此路由。使用当前 SKILL.md 所在目录解析脚本绝对路径：
 
 ```text

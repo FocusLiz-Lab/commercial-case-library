@@ -1,0 +1,4 @@
+interface:
+  display_name: "共享商业案例库 更新"
+  short_description: "Update suite skills and atom libraries safely"
+  default_prompt: "Use $commercial-case-library-update to update the suite and its atom libraries from GitHub."
