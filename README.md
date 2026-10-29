@@ -2,6 +2,12 @@
 
 共享商业案例原子库，供 `dkskill`、`lhskill`、`openskill` 等 SkillHub 复用。
 
+## 数据文本检查
+
+发布数据使用中性称呼，不保留受限品牌名称及其拼音、缩写、推广域名和联系方式。兼容字符、全角写法及不可见字符也纳入检查。
+
+提交前运行 `python tools/sanitize_case_text.py --check`，校验全部季度记录及清单大小。需要清理时运行 `python tools/sanitize_case_text.py --write`，再执行只读检查。处理保留记录数量和稳定 ID，原文摘录中的受限名称会被替换，不能将处理后的摘录当作逐字原文引用。GitHub Actions 会对新提交自动执行检查。
+
 默认共享下载位置：
 
 ```text

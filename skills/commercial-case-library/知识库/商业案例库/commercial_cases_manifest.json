@@ -5,155 +5,155 @@
   "files": [
     {
       "file": "atoms_2017Q1.jsonl",
-      "bytes": 60055
+      "bytes": 60073
     },
     {
       "file": "atoms_2017Q2.jsonl",
-      "bytes": 335157
+      "bytes": 335490
     },
     {
       "file": "atoms_2017Q3.jsonl",
-      "bytes": 153081
+      "bytes": 153278
     },
     {
       "file": "atoms_2017Q4.jsonl",
-      "bytes": 33322
+      "bytes": 33334
     },
     {
       "file": "atoms_2018Q1.jsonl",
-      "bytes": 55502
+      "bytes": 55538
     },
     {
       "file": "atoms_2018Q2.jsonl",
-      "bytes": 237611
+      "bytes": 237761
     },
     {
       "file": "atoms_2018Q3.jsonl",
-      "bytes": 142962
+      "bytes": 143130
     },
     {
       "file": "atoms_2018Q4.jsonl",
-      "bytes": 196835
+      "bytes": 197003
     },
     {
       "file": "atoms_2019Q1.jsonl",
-      "bytes": 254602
+      "bytes": 254728
     },
     {
       "file": "atoms_2019Q2.jsonl",
-      "bytes": 805908
+      "bytes": 806322
     },
     {
       "file": "atoms_2019Q3.jsonl",
-      "bytes": 424012
+      "bytes": 424600
     },
     {
       "file": "atoms_2019Q4.jsonl",
-      "bytes": 486487
+      "bytes": 486961
     },
     {
       "file": "atoms_2020Q1.jsonl",
-      "bytes": 599125
+      "bytes": 599575
     },
     {
       "file": "atoms_2020Q2.jsonl",
-      "bytes": 2299011
+      "bytes": 2300289
     },
     {
       "file": "atoms_2020Q3.jsonl",
-      "bytes": 1654117
+      "bytes": 1655902
     },
     {
       "file": "atoms_2020Q4.jsonl",
-      "bytes": 2029354
+      "bytes": 2031646
     },
     {
       "file": "atoms_2021Q1.jsonl",
-      "bytes": 1430602
+      "bytes": 1433116
     },
     {
       "file": "atoms_2021Q2.jsonl",
-      "bytes": 2647311
+      "bytes": 2650053
     },
     {
       "file": "atoms_2021Q3.jsonl",
-      "bytes": 1821481
+      "bytes": 1823527
     },
     {
       "file": "atoms_2021Q4.jsonl",
-      "bytes": 2271287
+      "bytes": 2273405
     },
     {
       "file": "atoms_2022Q1.jsonl",
-      "bytes": 2546420
+      "bytes": 2548692
     },
     {
       "file": "atoms_2022Q2.jsonl",
-      "bytes": 2099787
+      "bytes": 2102643
     },
     {
       "file": "atoms_2022Q3.jsonl",
-      "bytes": 1833924
+      "bytes": 1835790
     },
     {
       "file": "atoms_2022Q4.jsonl",
-      "bytes": 2289698
+      "bytes": 2292062
     },
     {
       "file": "atoms_2023Q1.jsonl",
-      "bytes": 2983126
+      "bytes": 2987074
     },
     {
       "file": "atoms_2023Q2.jsonl",
-      "bytes": 4860231
+      "bytes": 4865879
     },
     {
       "file": "atoms_2023Q3.jsonl",
-      "bytes": 4168306
+      "bytes": 4172620
     },
     {
       "file": "atoms_2023Q4.jsonl",
-      "bytes": 4152713
+      "bytes": 4157280
     },
     {
       "file": "atoms_2024Q1.jsonl",
-      "bytes": 4466052
+      "bytes": 4470006
     },
     {
       "file": "atoms_2024Q2.jsonl",
-      "bytes": 3613207
+      "bytes": 3617671
     },
     {
       "file": "atoms_2024Q3.jsonl",
-      "bytes": 3129006
+      "bytes": 3132900
     },
     {
       "file": "atoms_2024Q4.jsonl",
-      "bytes": 2598904
+      "bytes": 2602285
     },
     {
       "file": "atoms_2025Q1.jsonl",
-      "bytes": 2894619
+      "bytes": 2899023
     },
     {
       "file": "atoms_2025Q2.jsonl",
-      "bytes": 4319973
+      "bytes": 4328339
     },
     {
       "file": "atoms_2025Q3.jsonl",
-      "bytes": 4354065
+      "bytes": 4359519
     },
     {
       "file": "atoms_2025Q4.jsonl",
-      "bytes": 3333901
+      "bytes": 3339529
     },
     {
       "file": "atoms_2026Q1.jsonl",
-      "bytes": 3547364
+      "bytes": 3553448
     },
     {
       "file": "atoms_2026Q2.jsonl",
-      "bytes": 3472830
+      "bytes": 3476750
     }
   ],
   "file_count": 38,
